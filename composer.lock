@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "51547d53c2560bbcb44d5458ab865b6f",
-    "content-hash": "21b0dc26c2a5fa62429700ac3676fb47",
+    "hash": "e44653b96be3bf49e937e4c3e3694298",
+    "content-hash": "382e14f8c93fef6b46abd23420cb633e",
     "packages": [
         {
             "name": "composer/installers",
@@ -117,13 +117,36 @@
         {
             "name": "misfist/advanced-custom-fields",
             "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misfist/advanced-custom-fields.git",
+                "reference": "master"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip",
-                "reference": null,
+                "reference": "master",
                 "shasum": null
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-09-05 02:54:37"
+        },
+        {
+            "name": "misfist/patricia-lutz-core-functionality",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/misfist/patricia-lutz-core-functionality.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/misfist/patricia-lutz-core-functionality/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-11-04 20:13:45"
         },
         {
             "name": "wpackagist-plugin/admin-management-xtended",
@@ -264,6 +287,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/3.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-piwik",
@@ -471,7 +514,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "misfist/advanced-custom-fields": 20
+        "misfist/advanced-custom-fields": 20,
+        "misfist/patricia-lutz-core-functionality": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
