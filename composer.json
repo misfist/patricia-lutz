@@ -32,10 +32,10 @@
     "wpackagist-plugin/admin-post-navigation": "^2.0",
     "wpackagist-plugin/backupwordpress": "^3.6.2",
     "wpackagist-plugin/caldera-forms": "^1.4.3.1",
-    "wpackagist-plugin/google-sitemap-generator": "^4.0.8",
     "wpackagist-plugin/jetpack": "^4.3.2",
     "wpackagist-plugin/postman-smtp": "^1.6.25",
     "wpackagist-plugin/w3-total-cache": "^0.9.5.1",
+    "wpackagist-plugin/wordpress-seo": "^3.7.1",
     "wpackagist-plugin/wp-piwik": "^1.0.12",
     "misfist/advanced-custom-fields": "dev-master"
   },

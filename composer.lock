@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18e23aad0622a1f0e66528a4abbb52f6",
-    "content-hash": "42c9b3042298e54d8c0d2c08f3e12572",
+    "hash": "51547d53c2560bbcb44d5458ab865b6f",
+    "content-hash": "21b0dc26c2a5fa62429700ac3676fb47",
     "packages": [
         {
             "name": "composer/installers",
@@ -204,26 +204,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/caldera-forms/"
-        },
-        {
-            "name": "wpackagist-plugin/google-sitemap-generator",
-            "version": "4.0.8",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
-                "reference": "tags/4.0.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
