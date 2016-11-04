@@ -1,0 +1,52 @@
+{
+  "name": "misfist/patricia-lutz",
+  "description": "WordPress packages",
+  "type": "wordpress-project",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Misfist",
+      "email": "pea@misfist.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "misfist/advanced-custom-fields",
+        "version": "master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip"
+        }
+      }
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/admin-management-xtended": "^2.4.0",
+    "wpackagist-plugin/admin-post-navigation": "^2.0",
+    "wpackagist-plugin/backupwordpress": "^3.6.2",
+    "wpackagist-plugin/caldera-forms": "^1.4.3.1",
+    "wpackagist-plugin/jetpack": "^4.3.2",
+    "wpackagist-plugin/postman-smtp": "^1.6.25",
+    "wpackagist-plugin/w3-total-cache": "^0.9.5.1",
+    "wpackagist-plugin/wp-piwik": "^1.0.12",
+    "misfist/advanced-custom-fields": "dev-master"
+  },
+  "require-dev": {
+    "wpackagist-plugin/developer": ">=1.2.5",
+    "wpackagist-plugin/which-template": ">=4.0",
+    "wpackagist-plugin/wp-log-viewer": "1.0.7",
+    "wpackagist-plugin/rewrite-rules-inspector": ">=1.2.1",
+    "wpackagist-plugin/theme-check": "20160523.1",
+    "wpackagist-plugin/user-switching": ">=1.0.8",
+    "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
+    "wpackagist-plugin/rest-api-console": ">=2.0.1",
+    "wpackagist-plugin/wordpress-importer": "0.6.3"
+  }
+}
