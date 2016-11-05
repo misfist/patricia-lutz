@@ -54,6 +54,7 @@
     "wpackagist-plugin/admin-post-navigation": "^2.0",
     "wpackagist-plugin/backupwordpress": "^3.6.2",
     "wpackagist-plugin/caldera-forms": "^1.4.3.1",
+    "wpackagist-plugin/intuitive-custom-post-order": "^3.0.7",
     "wpackagist-plugin/jetpack": "^4.3.2",
     "wpackagist-plugin/postman-smtp": "^1.6.25",
     "wpackagist-plugin/w3-total-cache": "^0.9.5.1",
