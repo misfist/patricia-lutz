@@ -25,8 +25,8 @@
           "url": "https://github.com/misfist/advanced-custom-fields/archive/master.zip"
         },
         "source": {
-            "type": "git",
-            "url": "https://github.com/misfist/advanced-custom-fields.git",
+            "type": "vcs",
+            "url": "https://github.com/misfist/advanced-custom-fields",
             "reference": "master"
         }
       }
@@ -42,8 +42,8 @@
           "url": "https://github.com/misfist/patricia-lutz-core-functionality/archive/master.zip"
         },
         "source": {
-            "type": "git",
-            "url": "https://github.com/misfist/patricia-lutz-core-functionality.git",
+            "type": "vcs",
+            "url": "https://github.com/misfist/patricia-lutz-core-functionality",
             "reference": "master"
         }
       }
@@ -73,5 +73,8 @@
     "wpackagist-plugin/regenerate-thumbnails": "2.2.6",
     "wpackagist-plugin/rest-api-console": ">=2.0.1",
     "wpackagist-plugin/wordpress-importer": "0.6.3"
+  },
+  "config": {
+        "preferred-install": "source"
   }
 }
